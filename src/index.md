@@ -25,4 +25,6 @@ featuredWork:
 
 studioFeed:
   title: 'From inside the studio'
+
+metaDesc: 'Psicóloga en Cubelles. Terapia individualizada y eficaz.'
 ---
