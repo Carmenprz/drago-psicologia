@@ -13,6 +13,10 @@ module.exports = config => {
         x => x.data.featured
       );
     });
+
+    // Tell 11ty to use the .eleventyignore and ignore our .gitignore file
+    config.setUseGitIgnore(false);
+
     return {
         markdownTemplateEngine: 'njk',
         dataTemplateEngine: 'njk',
