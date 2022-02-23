@@ -14,6 +14,7 @@
     "@11ty/eleventy": "^1.0.0",
     "@11ty/eleventy-cache-assets": "^2.3.0",
     "concurrently": "^7.0.0",
+    "gorko": "^0.9.1",
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.3.0",
     "gulp-sass": "^5.1.0"
