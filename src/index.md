@@ -2,10 +2,10 @@
 title: 'Drago psicología'
 layout: 'layouts/home.html'
 intro:
-  eyebrow: 'Digital Marketing is our'
-  main: 'Bread & Butter'
-  summary: 'Let us help you create the perfect campaign with our multi-faceted team of talented creatives.'
-  buttonText: 'See our work'
+  eyebrow: '¡Hola!'
+  main: 'Soy Jennifer,'
+  summary: 'psicóloga de Drago psicología.'
+  buttonText: 'Contáctame'
   buttonUrl: '/work'
   image: '/images/bg/icon.svg'
   imageAlt: 'Buttered toasted white bread'
@@ -19,8 +19,8 @@ primaryCTA:
   buttonText: 'Buy a copy'
   buttonUrl: 'https://learneleventyfromscratch.com'
 
-featuredWork:
-  title: 'Selected work'
+featuredServices:
+  title: 'Servicios destacados'
   summary: 'Some stuff that should give you an idea of what we’re all about.'
 
 studioFeed:
