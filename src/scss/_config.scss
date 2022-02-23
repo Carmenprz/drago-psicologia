@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
 /**
  * BASE SIZE
  * All calculations are based on this. It’s recommended that
@@ -76,8 +79,8 @@ $gorko-config: (
   ),
   'font': (
     'items': (
-      'base': '"Literata", Georgia, serif',
-      'sans': '"Red Hat Display", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif',
+      'base': '"Libre Baskerville", Georgia, serif',
+      'sans': '"Lato", Roboto, "Helvetica Neue", Arial, sans-serif',
     ),
     'output': 'standard',
     'property': 'font-family',
