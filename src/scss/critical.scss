@@ -26,12 +26,12 @@
   }
 
   :focus {
-    outline: 2px dashed get-color('primary');
-    outline-offset: 0.25rem;
+    transform: scale(0.8);
+    transition: all .5s ease-in-out;
   }
 
   main:focus {
-    outline: none;
+    transform: none;
   }
 
   h1,
@@ -73,6 +73,8 @@
 // Import blocks
 @import 'blocks/definition-group';
 @import 'blocks/tags-list';
+@import 'blocks/nav.scss';
+@import 'blocks/site-head.scss';
 
 // Import utilities
 @import 'utilities/dot-shadow';
