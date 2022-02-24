@@ -1,0 +1,29 @@
+.button {
+    @extend .radius;
+
+    display: inline-block;
+    padding: 0.5rem 2rem;
+    background: get-color('primary');
+    color: get-color('light-glare');
+    text-decoration: none;
+    text-align: center;
+
+    @include apply-utility('font', 'sans');
+    @include apply-utility('weight', 'medium');
+
+    // Make sure hover state trumps all variants with a good ol’ important
+    &:hover {
+      background: get-color('dark') !important;
+      color: get-color('light-glare') !important;
+    }
+
+    // Add a ghost modifier
+    &[data-variant='ghost'] {
+      background: transparent;
+      color: get-color('secondary');
+    }
+
+    &[data-variant='nav'] {
+        margin: 0.5rem;
+    }
+  }

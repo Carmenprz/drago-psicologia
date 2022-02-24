@@ -3,6 +3,7 @@
     font-weight: 400;
     margin-top: -#{get-size('400')};
     margin-inline-start: -#{get-size('400')};
+    align-items: center;
 
     &__list {
       display: flex;
@@ -11,6 +12,7 @@
       > * {
         padding-top: get-size('400');
         padding-inline-start: get-size('400');
+        margin-bottom: 0.5rem;
       }
     }
 
