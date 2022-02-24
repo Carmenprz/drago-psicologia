@@ -5,12 +5,12 @@
         "url": "/"
       },
       {
-        "text": "Sobre mí",
-        "url": "/sobre-mi/"
-      },
-      {
         "text": "Servicios",
         "url": "/servicios/"
+      },
+      {
+        "text": "Sobre mí",
+        "url": "/sobre-mi/"
       },
       {
         "text": "Contacto",
