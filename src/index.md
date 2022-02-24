@@ -1,6 +1,9 @@
 ---
 title: 'Drago psicología'
 layout: 'layouts/home.html'
+nav: 
+  buttonText: '¿Hablamos?'
+  buttonUrl: '/contact'
 intro:
   eyebrow: '¡Hola!'
   main: 'Soy Jennifer,'
