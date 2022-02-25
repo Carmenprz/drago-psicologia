@@ -5,9 +5,7 @@ nav:
   buttonText: '¿Hablamos?'
   buttonUrl: '/contact'
 intro:
-  eyebrow: '¡Hola!'
-  main: 'Soy Jennifer,'
-  summary: 'psicóloga de Drago psicología.'
+  header: '¡Hola! Soy Jennifer, psicóloga de Drago psicología.'
   buttonText: 'Contáctame'
   buttonUrl: '/work'
   image: '/images/bg/icon.svg'
