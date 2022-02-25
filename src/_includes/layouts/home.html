@@ -1,5 +1,5 @@
 {% extends "layouts/base.html" %}
-
+{% set pageCriticalStyles = ['css/home.css'] %}
 {% block content %}
 <div class="wrapper">
   <article class="intro">
@@ -11,7 +11,7 @@
     </div>
     <div class="[ intro__media ]">
       <img
-        class="[ intro__image ] [ radius ]"
+        class="[ intro__image ]"
         src="{{ intro.image }}"
         alt="{{ intro.imageAlt }}"
       />
