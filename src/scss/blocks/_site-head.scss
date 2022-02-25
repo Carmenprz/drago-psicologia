@@ -1,11 +1,15 @@
 .site-head {
-    padding: get-size('600') 0;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 2;
+    background-color: get-color('light-glare');
+    padding: get-size('300') 0;
 
     &__inner {
       display: flex;
-      flex-wrap: wrap;
+      justify-content: space-around;
       align-items: center;
-      justify-content: space-between;
     }
 
     &__brand {
@@ -21,7 +25,12 @@
     }
 
     &__nav {
-      padding: get-size('300') 0;
+      width: 100%;
+
+      .nav__list {
+        display: flex;
+        justify-content: space-around;
+      }
     }
 
     @include media-query('md') {
