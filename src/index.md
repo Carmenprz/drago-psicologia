@@ -1,7 +1,7 @@
 ---
 title: 'Drago psicología'
 layout: 'layouts/home.html'
-nav: 
+nav:
   buttonText: '¿Hablamos?'
   buttonUrl: '/contact'
 intro:
@@ -12,8 +12,7 @@ intro:
   imageAlt: 'Buttered toasted white bread'
 
 featuredServices:
-  title: 'Servicios destacados'
-  summary: 'Some stuff that should give you an idea of what we’re all about.'
+  title: 'Servicios'
 
 studioFeed:
   title: 'From inside the studio'

@@ -1,22 +1,19 @@
-<article class="[ featured-work ] [ panel ] [ bg-light-glare ]">
+<article class="[ featured-services ] [ panel ] [ bg-light-shade ]">
     <div class="[ wrapper ] [ flow ]">
-      <div class="[ featured-work__inner ] [ flow ]">
-        <div class="[ featured-work__intro ] [ flow flow-space-300 ]">
+      <div class="[ featured-services__inner ] [ flow ]">
+        <div class="[ featured-services__intro ] [ flow flow-space-300 ]">
           <h2
-            class="[ featured-work__heading ] [ headline ] [ color-quinary-shade lg:measure-micro ]"
+            class="[ featured-services__heading ] [ headline ] [ color-quinary-shade lg:measure-micro ]"
             data-highlight="dark"
           >
             {{ featuredServices.title }}
           </h2>
-          <p class="[ featured-work__summary ] [ measure-compact ]">
-            {{ featuredServices.summary }}
-          </p>
         </div>
         {% for item in collections.featuredWork %}
         <a
           href="{{ item.url }}"
           aria-label="See {{ item.data.title }}"
-          class="[ featured-work__item ] [ frame ]"
+          class="[ featured-services__item ] [ frame ]"
           data-frame="quaternary"
         >
           <img
@@ -28,8 +25,8 @@
         </a>
         {% endfor %}
       </div>
-      <div class="[ featured-work__action ] [ flow-space-700 ]">
-        <a href="/work/" class="button">See more work</a>
+      <div class="[ featured-services__action ] [ flow-space-700 ]">
+        <a href="/services/" class="button">Ver todos los servicios</a>
       </div>
     </div>
   </article>
