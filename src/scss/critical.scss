@@ -22,12 +22,12 @@
 
   a:not([class]) {
     color: currentColor;
-    text-decoration-color: get-color('quinary');
+    text-decoration-color: get-color('tertiary');
   }
 
   :focus {
-    transform: scale(0.8);
-    transition: all .5s ease-in-out;
+    transform: scale(1.05);
+    transition: all .1s ease-in-out;
   }
 
   main:focus {
@@ -47,7 +47,7 @@
   // High contrast selection because it can help visually-impaired
   // folks read the text easier
   ::selection {
-    color: get-color('light');
+    color: get-color('light-glare');
 
     // We set this as an RGBA because that’s how you get a solid color, by using 0.99
     // alpha value. Browsers are wild.
