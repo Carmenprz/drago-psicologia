@@ -1,6 +1,11 @@
 .featured-services {
     &__item {
       display: block;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
     }
 
     &__action {
@@ -26,6 +31,7 @@
       }
 
       &__item {
+        max-height: 17rem;
         &:nth-child(odd) {
           grid-column: 1/8;
         }
@@ -41,6 +47,7 @@
 
       &__intro,
       &__item {
+        max-height: 17rem;
         &:nth-child(odd) {
           grid-column: 1/7;
         }
