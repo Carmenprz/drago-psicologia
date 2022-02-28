@@ -13,6 +13,7 @@ intro:
 
 featuredServices:
   title: 'Servicios'
+  summary: 'Servicios destacados de Drago psicología. Accede a ver más para descubrirlos todos.'
 
 studioFeed:
   title: 'From inside the studio'

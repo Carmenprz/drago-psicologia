@@ -1,32 +1,23 @@
 <article class="[ featured-services ] [ panel ] [ bg-light-shade ]">
-    <div class="[ wrapper ] [ flow ]">
-      <div class="[ featured-services__inner ] [ flow ]">
-        <div class="[ featured-services__intro ] [ flow flow-space-300 ]">
-          <h2
-            class="[ featured-services__heading ] [ headline ] [ color-quinary-shade lg:measure-micro ]"
-            data-highlight="dark"
-          >
-            {{ featuredServices.title }}
-          </h2>
-        </div>
-        {% for item in collections.featuredWork %}
-        <a
-          href="{{ item.url }}"
-          aria-label="See {{ item.data.title }}"
-          class="[ featured-services__item ] [ frame ]"
-          data-frame="quaternary"
-        >
-          <img
-            src="{{ item.data.hero.image }}"
-            alt="{{ item.data.hero.imageAlt }}"
-            loading="lazy"
-            class="radius"
-          />
-        </a>
-        {% endfor %}
+  <div class="[ wrapper ] [ flow ]">
+    <div class="[ featured-services__inner ] [ flow ]">
+      <div class="[ featured-services__intro ] [ flow flow-space-300 ]">
+        <h2 class="[ featured-services__heading ] [ headline ] [ color-dark lg:measure-micro ]" data-highlight="dark">
+          {{ featuredServices.title }}
+        </h2>
+        <p class="[ featured-work__summary ] [ measure-compact ]">
+          {{ featuredServices.summary }}
+        </p>
       </div>
-      <div class="[ featured-services__action ] [ flow-space-700 ]">
-        <a href="/services/" class="button">Ver todos los servicios</a>
-      </div>
+      {% for item in collections.featuredWork %}
+      <a href="{{ item.url }}" aria-label="See {{ item.data.title }}" class="[ featured-services__item ] [ frame ]"
+        data-frame="quaternary">
+        <img src="{{ item.data.hero.image }}" alt="{{ item.data.hero.imageAlt }}" loading="lazy" class="radius" />
+      </a>
+      {% endfor %}
     </div>
-  </article>
+    <div class="[ featured-services__action ] [ flow-space-700 ]">
+      <a href="/services/" class="button">Ver todos los servicios</a>
+    </div>
+  </div>
+</article>
