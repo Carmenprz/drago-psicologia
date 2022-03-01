@@ -1,4 +1,4 @@
-$headline-highlights: ('dark', 'primary', 'secondary', 'quaternary', 'quinary');
+$headline-highlights: ('dark-glare', 'primary', 'secondary', 'tertiary');
 
 .headline {
   font-size: get-size('700');
@@ -10,18 +10,5 @@ $headline-highlights: ('dark', 'primary', 'secondary', 'quaternary', 'quinary');
 
   @include media-query('lg') {
     font-size: get-size('900');
-  }
-
-  &::after {
-    content: '.';
-  }
-
-  // For each color, create an exception
-  @each $headline-highlight in $headline-highlights {
-    &[data-highlight='#{$headline-highlight}'] {
-      &::after {
-        color: get-color($headline-highlight);
-      }
-    }
   }
 }
