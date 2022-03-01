@@ -7,13 +7,21 @@ nav:
 intro:
   header: '¡Hola! Soy Jennifer, psicóloga de Drago psicología.'
   buttonText: 'Contáctame'
-  buttonUrl: '/work'
+  buttonUrl: '/contact'
   image: '/images/bg/icon.svg'
   imageAlt: 'Buttered toasted white bread'
 
 featuredServices:
   title: 'Servicios'
   summary: 'Servicios destacados de Drago psicología. Accede a ver más para descubrirlos todos.'
+
+aboutMe:
+  title: 'Sobre mí'
+  summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea ommodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.'
+  image: '/images/people/1.jpg'
+  imageAlt: 'Jennifer Drago'
+  buttonText: '¿Nos conocemos?'
+  buttonUrl: '/contact'
 
 metaDesc: 'Psicóloga en Cubelles. Terapia individualizada y eficaz.'
 ---
