@@ -1,8 +1,10 @@
 // Adds consitent space and padding for each full panel section
 .panel {
   padding: get-size('900') 0;
+  min-height: 100vh;
 
   @include media-query('md') {
     padding: get-size('major') 0;
+    min-height: 100vh;
   }
 }
