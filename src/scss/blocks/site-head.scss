@@ -1,0 +1,34 @@
+$content-width: 1000px;
+$breakpoint: 799px;
+
+.site-head {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 2;
+    background-color: get-color('light-glare');
+    opacity: 0.95;
+    padding: get-size('300') 0;
+
+    &__inner {
+    max-width: $content-width;
+    margin: 0 auto;
+    }
+
+    &__brand {
+      flex-shrink: 0;
+      position: absolute;
+      top: 0px;
+      padding-left: 20px;
+      float: left;
+      svg {
+          width: 120px;
+      }
+    }
+
+    a,
+    a:visited {
+        color: get-color('dark');
+        text-decoration: none;
+    }
+}

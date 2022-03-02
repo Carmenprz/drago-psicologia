@@ -1,21 +1,26 @@
 <header role="banner" class="site-head">
-  <div class="wrapper">
     <div class="site-head__inner">
-      <a href="/" aria-label="{{ site.name }} - home" class="site-head__brand">
-        {% include "partials/brand.svg" %}
-      </a>
-      <nav class="[ nav ] [ site-head__nav ] [ font-sans ]" aria-label="Primary">
-        <ul class="nav__list">
-            {% for item in navigation.items %}
-            <li>
-                <a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>
-                    {{ item.text }}
-                </a>
-            </li>
-            {% endfor%}
-            <a href="{{ nav.buttonUrl }}" data-variant="nav" class="button">{{ nav.buttonText }}</a>
-        </ul>
-      </nav>
+        <a href="/" aria-label="{{ site.name }} - home" class="site-head__brand">
+            {% include "partials/brand.svg" %}
+        </a>
+        <nav class="[ nav ] [ font-sans ]" aria-label="Primary">
+            <div class="nav-mobile">
+                <a id="nav-toggle" href="#!"><span></span></a>
+            </div>
+            <ul class="nav-list">
+                <li><a href="#!">Inicio</a></li>
+                <li>
+                    <a href="/">Servicos</a>
+                    <ul class="nav-dropdown">
+                        <li><a href="#!">Web Design</a></li>
+                        <li><a href="#!">Web Development</a></li>
+                        <li><a href="#!">Graphic Design</a></li>
+                    </ul>
+                </li>
+                <li><a href="#!">Sobre mí</a></li>
+                <li><a href="#!">Contacto</a></li>
+                <a href="{{ nav.buttonUrl }}" data-variant="nav" class="button">{{ nav.buttonText }}</a>
+            </ul>
+        </nav>
     </div>
-  </div>
 </header>
