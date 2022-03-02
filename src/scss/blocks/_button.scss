@@ -19,8 +19,8 @@
 
     // Add a ghost modifier
     &[data-variant='ghost'] {
-      background: transparent;
-      color: get-color('secondary');
+      background:  get-color('secondary');
+      color: get-color('dark-shade');
     }
 
     &[data-variant='nav'] {
