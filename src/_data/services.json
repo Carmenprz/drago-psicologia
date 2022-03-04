@@ -2,23 +2,23 @@
   "items": [
     {
       "title": "Violencia de género",
-      "image": "../images/people/1.jpg"
+      "image": "../images/services/1.jpg"
     },
     {
       "title": "Depresión",
-      "image": "../images/people/2.jpg"
+      "image": "../images/services/2.jpg"
     },
     {
       "title": "Terapia de pareja",
-      "image": "../images/people/3.jpg"
+      "image": "../images/services/3.jpg"
     },
     {
       "title": "Ansiedad",
-      "image": "../images/people/4.jpg"
+      "image": "../images/services/4.jpg"
     },
     {
       "title": "Burn out",
-      "image": "../images/people/5.jpg"
+      "image": "../images/services/5.jpg"
     }
   ]
 }
