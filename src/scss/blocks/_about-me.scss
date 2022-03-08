@@ -1,4 +1,10 @@
 .about {
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
     // This is a dark panel, so we need to flip the selection styles
     ::selection {
       // We set this as an RGBA because that’s how you get a solid color, by using 0.99
@@ -7,47 +13,66 @@
       color: get-color('dark-shade');
     }
 
+    &__picture {
+
+      width: 15rem;
+      height: 15rem;
+
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        filter: grayscale(100%);
+        border-radius: 100%;
+      }
+    }
+
+    &__action {
+      display: flex;
+      justify-content: center;
+    }
+
     @include media-query('md') {
       &__inner {
-        display: grid;
-        grid-gap: get-size('700') get-size('500');
-        grid-template-columns: repeat(12, 1fr);
 
-        @supports (display: grid) {
-          > * {
-            margin: 0;
-          }
-        }
+      }
+
+      &__picture {
+        width: 18rem;
+        height: 18rem;
       }
 
       &__heading {
-        grid-column: 1/9;
+
       }
 
-      &__summary {
-        grid-row: 2;
 
-        // Pull the content in from the right, by reversing columns
-        grid-column: 12/5;
+      &__summary {
+
       }
 
       &__action {
-        grid-row: 3;
-        grid-column: 3/12;
+
       }
     }
 
     @include media-query('lg') {
       &__inner {
-        grid-gap: get-size('500');
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
       }
 
-      &__summary {
-        grid-column: 12/7;
+      &__picture {
+        flex-shrink: 0;
+        width: 20rem;
+        height: 20rem;
       }
+
 
       &__action {
-        grid-column: 6/12;
+
       }
     }
   }

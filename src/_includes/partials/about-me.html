@@ -1,10 +1,13 @@
 <article class="[ panel ] [ bg-dark-shade color-light ]">
     <div class="wrapper">
         <div class="[ about__inner ] [ flow ]">
-            <h2 class="[ about__heading ] [ headline ]">{{ aboutMe.title }}</h2>
-            <p class="[ about__summary ] [ measure-short ]">{{ aboutMe.summary }}</p>
-            <div class="[ about__action ]">
-                <a class="button" data-variant="ghost" href="{{ aboutMe.buttonUrl }}">{{ aboutMe.buttonText }}</a>
+            <div class="[ about__picture ]"><img src="{{ aboutMe.image }}" alt="{{ aboutMe.imageAlt}}"></div>
+            <div class="[ flow ]">
+                <h2 class="[ about__heading ] [ headline ]">{{ aboutMe.title }}</h2>
+                <p class="[ about__summary ] [ measure-short ]">{{ aboutMe.summary }}</p>
+                <div class="[ about__action ]">
+                    <a class="button" data-variant="ghost" href="{{ aboutMe.buttonUrl }}">{{ aboutMe.buttonText }}</a>
+                </div>
             </div>
         </div>
     </div>
