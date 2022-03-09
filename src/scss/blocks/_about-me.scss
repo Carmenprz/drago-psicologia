@@ -5,74 +5,75 @@
     align-items: center;
   }
 
-    // This is a dark panel, so we need to flip the selection styles
-    ::selection {
-      // We set this as an RGBA because that’s how you get a solid color, by using 0.99
-      // alpha value. Browsers are wild.
-      background: rgba(get-color('light'), 0.99);
-      color: get-color('dark-shade');
+  // This is a dark panel, so we need to flip the selection styles
+  ::selection {
+    // We set this as an RGBA because that’s how you get a solid color, by using 0.99
+    // alpha value. Browsers are wild.
+    background: rgba(get-color('light'), 0.99);
+    color: get-color('dark-shade');
+  }
+
+  &__picture {
+    width: 13rem;
+    height: 13rem;
+    position: relative;
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      filter: grayscale(100%);
+      border-radius: 100%;
     }
 
+    .circle {
+      width: 20rem;
+      height: 20rem;
+      background-color: get-color('secondary');
+      position: absolute;
+      border-radius: 100%;
+      bottom: 5%;
+      right: 40%;
+    }
+  }
+
+  &__action {
+    display: flex;
+    justify-content: center;
+  }
+
+  @include media-query('md') {
     &__picture {
+      width: 18rem;
+      height: 18rem;
 
-      width: 15rem;
-      height: 15rem;
-
-      img {
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-        filter: grayscale(100%);
-        border-radius: 100%;
-      }
-    }
-
-    &__action {
-      display: flex;
-      justify-content: center;
-    }
-
-    @include media-query('md') {
-      &__inner {
-
-      }
-
-      &__picture {
-        width: 18rem;
-        height: 18rem;
-      }
-
-      &__heading {
-
-      }
-
-
-      &__summary {
-
-      }
-
-      &__action {
-
-      }
-    }
-
-    @include media-query('lg') {
-      &__inner {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-
-      }
-
-      &__picture {
-        flex-shrink: 0;
-        width: 20rem;
-        height: 20rem;
-      }
-
-
-      &__action {
-
+      .circle {
+        width: 25rem;
+        height: 25rem;
+        bottom: 10%;
+        right: 40%;
       }
     }
   }
+
+  @include media-query('lg') {
+    &__inner {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    &__picture {
+      flex-shrink: 0;
+      width: 20rem;
+      height: 20rem;
+
+      .circle {
+        width: 30rem;
+        height: 30rem;
+        bottom: 20%;
+        right: 40%;
+      }
+    }
+  }
+}
