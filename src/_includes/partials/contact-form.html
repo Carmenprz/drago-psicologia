@@ -1,17 +1,21 @@
-<form name="contact" method="POST">
+<form name="contact" method="POST" class="[ flow ] [ input ]">
     <p>
-        <label>Nombre: <input type="text" name="name" /></label>
+        <label>Nombre:</label>
+        <input type="text" name="name" />
     </p>
     <p>
-        <label>Email: <input type="email" name="email" /></label>
+        <label>Email:</label>
+        <input type="email" name="email" />
     </p>
     <p>
-        <label>Teléfono: <input type="phone-number" name="phone-number" /></label>
+        <label>Teléfono:</label>
+        <input type="phone-number" name="phone-number" />
     </p>
     <p>
-        <label>Mensaje: <textarea name="message"></textarea></label>
+        <label>Mensaje:</label>
+        <textarea name="message"></textarea>
     </p>
-    <p>
-        <button type="submit">Enviar</button>
-    </p>
+    <div class="form__action">
+        <a class="button" type="submit" data-variant="form">Enviar</a>
+    </div>
 </form>
