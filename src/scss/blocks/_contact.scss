@@ -1,11 +1,9 @@
 .contact {
     display: flex;
     flex-direction: column;
-    align-items: center;
 
     &__action {
         display: flex;
-        justify-content: center;
     }
 
     @include media-query('lg') {

@@ -1,0 +1,7 @@
+.input {
+    input, textarea {
+        background-color: get-color('light-glare');
+        border: 1px solid get-color('dark-glare');
+        border-radius: 0.5rem;
+    }
+}

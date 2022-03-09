@@ -1,0 +1,21 @@
+form {
+    width: 100%;
+    p {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        @include apply-utility('font', 'sans');
+        @include apply-utility('weight', 'normal');
+        input, textarea {
+            width: 100%;
+        }
+    }
+    .form__action {
+        display: flex;
+        align-items: end;
+    }
+    @include media-query('lg') {
+        width: 40rem;
+    }
+}
