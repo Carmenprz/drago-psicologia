@@ -23,5 +23,11 @@ aboutMe:
   buttonText: '¿Nos conocemos?'
   buttonUrl: '/contact'
 
+contact:
+  title: 'Contacto'
+  summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.'
+  buttonText: 'Contáctame'
+  buttonUrl: '/contact'
+
 metaDesc: 'Psicóloga en Cubelles. Terapia individualizada y eficaz.'
 ---
