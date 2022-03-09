@@ -1,0 +1,12 @@
+.card-title {
+    font-size: get-size('700');
+    max-width: 14ch;
+
+    @include media-query('md') {
+        font-size: get-size('700');
+    }
+
+    @include media-query('lg') {
+        font-size: get-size('700');
+    }
+}
