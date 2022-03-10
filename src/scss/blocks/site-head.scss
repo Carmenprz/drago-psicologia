@@ -1,34 +1,26 @@
-$content-width: 1000px;
-$breakpoint: 799px;
-
 .site-head {
-    position: fixed;
-    top: 0px;
-    width: 100%;
-    z-index: 2;
-    background-color: get-color('light-glare');
-    opacity: 0.95;
-    padding: get-size('300') 0;
+    padding: 0.6rem 0;
+    background: get-color('light-glare');
+    border-top: 5px solid get-color('light-glare');
+    border-bottom: 5px solid get-color('light');
+    color: get-color('dark');
+    line-height: 1.1;
 
     &__inner {
-    max-width: $content-width;
-    margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0 1rem;
     }
 
     &__brand {
-      flex-shrink: 0;
-      position: absolute;
-      top: 0px;
-      padding-left: 20px;
-      float: left;
-      svg {
-          width: 120px;
-      }
-    }
-
-    a,
-    a:visited {
-        color: get-color('dark');
-        text-decoration: none;
+        flex-shrink: 0;
+        display: block;
+        width: auto;
+        svg {
+            height: get-size('800');
+            width: auto;
+        }
     }
 }
