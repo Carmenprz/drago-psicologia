@@ -1,4 +1,10 @@
 .site-foot {
-  padding: get-size('500') 0 get-size('700') 0;
+  display: flex;
+  justify-content: center;
+  padding: get-size('600') get-size('400');
   text-align: center;
+  font-size: get-size('400');
+
+  @include apply-utility('font', 'sans');
+  @include apply-utility('weight', 'light');
 }
