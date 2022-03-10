@@ -28,10 +28,13 @@
   :focus {
     transform: scale(1.01);
     transition: all .1s ease-in-out;
+    outline: 2px dashed get-color('tertiary');
+    outline-offset: 0.2rem;
   }
 
   main:focus {
     transform: none;
+    outline: none;
   }
 
   h1,
