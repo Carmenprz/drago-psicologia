@@ -1,8 +1,12 @@
 .site-head {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
     padding: 0.6rem 0;
     background: get-color('light-glare');
     border-top: 5px solid get-color('light-glare');
-    border-bottom: 5px solid get-color('light');
+    border-bottom: 1px inset get-color('dark');
     color: get-color('dark');
     line-height: 1.1;
 
@@ -19,8 +23,16 @@
         display: block;
         width: auto;
         svg {
-            height: get-size('800');
+            height: get-size('600');
             width: auto;
+        }
+    }
+
+    @include media-query('md') {
+        &__brand {
+            svg {
+                height: get-size('700')
+            }
         }
     }
 }

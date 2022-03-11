@@ -1,30 +1,25 @@
 <header class="site-head" role="banner">
-    <div class="wrapper">
-      <div class="site-head__inner">
-        <a href="/" aria-label="{{ site.name }} - home" class="site-head__brand">
-            {% include "partials/brand.svg" %}
-        </a>
-        <burger-menu max-width="600">
-          <nav class="nav" aria-label="primary">
-            <ul role="list">
-              <li>
-                <a href="#">Inicio</a>
-              </li>
-              <li>
-                <a href="#">Servicios</a>
-              </li>
-              <li>
-                <a href="#">Sobre mí</a>
-              </li>
-              <li>
-                <a href="#">Contacto</a>
-              </li>
-              <li>
-                <a href="{{ nav.buttonUrl }}" data-variant="nav" class="button">{{ nav.buttonText }}</a>
-              </li>
-            </ul>
-          </nav>
-        </burger-menu>
-      </div>
+  <div class="wrapper">
+    <div class="site-head__inner">
+      <a href="/" aria-label="{{ site.name }} - home" class="site-head__brand">
+        {% include "partials/brand.svg" %}
+      </a>
+      <nav class="nav" aria-label="primary">
+        <ul role="list">
+          <li>
+            <a href="#">Servicios</a>,
+          </li>
+          <li>
+            <a href="#">Sobre mí</a>,
+          </li>
+          <li>
+            <a href="#">Contacto</a>
+          </li>
+          <!-- <li>
+            <a href="{{ nav.buttonUrl }}" data-variant="nav" class="button">{{ nav.buttonText }}</a>
+          </li> -->
+        </ul>
+      </nav>
     </div>
-  </header>
+  </div>
+</header>
