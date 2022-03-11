@@ -4,8 +4,8 @@
     width: 100%;
     z-index: 3;
     padding: 0.6rem 0;
-    background: get-color('light-glare');
-    border-top: 5px solid get-color('light-glare');
+    background: rgba(255, 253, 249, 0.4);
+    backdrop-filter: blur(6px);
     border-bottom: 1px inset get-color('dark');
     color: get-color('dark');
     line-height: 1.1;
