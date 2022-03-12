@@ -1,15 +1,11 @@
 {
   "items": [
     {
-      "text": "Inicio",
-      "url": "/"
-    },
-    {
-      "text": "Servicios",
+      "text": "Servicios,",
       "url": "/servicios/"
     },
     {
-      "text": "Sobre mí",
+      "text": "Sobre mí,",
       "url": "/sobre-mi/"
     },
     {

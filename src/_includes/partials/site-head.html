@@ -6,15 +6,11 @@
       </a>
       <nav class="nav" aria-label="primary">
         <ul role="list">
+          {% for item in navigation.items %}
           <li>
-            <a href="#">Servicios</a>,
+            <a href="{{ item.url }}">{{ item.text }}</a>
           </li>
-          <li>
-            <a href="#">Sobre mí</a>,
-          </li>
-          <li>
-            <a href="#">Contacto</a>
-          </li>
+          {% endfor %}
           <!-- <li>
             <a href="{{ nav.buttonUrl }}" data-variant="nav" class="button">{{ nav.buttonText }}</a>
           </li> -->
