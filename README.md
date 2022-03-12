@@ -12,7 +12,7 @@
 <h3 align="center">Drago psicología Website</h3>
 
   <p align="center">
-    This project is the design and the creation of the personal brand and professional website of a psychologist.
+    This project is the design and the creation of the personal brand and professional website for a psychologist.
     <br />
     <a href="https://github.com/Carmenprz/drago-psicologia"><strong>Explore the docs »</strong></a>
     <br />
