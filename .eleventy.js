@@ -10,6 +10,8 @@ module.exports = config => {
     config.addTransform('htmlmin', htmlMinTransform);
   }
 
+  config.addPassthroughCopy('./src/images/');
+
   config.setUseGitIgnore(false);
 
   return {
