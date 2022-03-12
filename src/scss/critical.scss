@@ -28,7 +28,7 @@
   :focus {
     transform: scale(1.01);
     transition: all .1s ease-in-out;
-    outline: 2px dashed get-color('tertiary');
+    outline: 2px dashed get-color('secondary-shade');
     outline-offset: 0.2rem;
   }
 
