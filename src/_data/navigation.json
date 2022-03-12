@@ -2,15 +2,15 @@
   "items": [
     {
       "text": "Servicios,",
-      "url": "/servicios/"
+      "url": "#featured-services"
     },
     {
       "text": "Sobre mí,",
-      "url": "/sobre-mi/"
+      "url": "#about-me"
     },
     {
       "text": "Contacto",
-      "url": "/contacto/"
+      "url": "#contact"
     }
   ]
 }
