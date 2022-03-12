@@ -1,9 +1,7 @@
 <div id="top"></div>
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
+<!-- [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+[![LinkedIn][linkedin-shield]][linkedin-url] -->
 
 <br />
 <div align="center">
@@ -57,10 +55,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Drago Psicologia Screen Shot][product-screenshot]]()
+<!-- [![Drago Psicologia Screen Shot][product-screenshot]]()
 
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">back to top</a>)</p> -->
 
 
 
@@ -88,6 +86,10 @@ To get a local copy up and running follow these simple example steps.
    git clone https://github.com/Carmenprz/drago-psicologia.git
    ```
 2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Serve at localhost:3000
    ```sh
    npm install
    ```
@@ -147,11 +149,6 @@ Project Link: [https://github.com/Carmenprz/drago-psicologia](https://github.com
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/Carmenprz/drago-psicologia.svg?style=for-the-badge
-[contributors-url]: https://github.com/Carmenprz/drago-psicologia/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Carmenprz/drago-psicologia.svg?style=for-the-badge
-[forks-url]: https://github.com/Carmenprz/drago-psicologia/network/members
 [stars-shield]: https://img.shields.io/github/stars/Carmenprz/drago-psicologia.svg?style=for-the-badge
 [stars-url]: https://github.com/Carmenprz/drago-psicologia/stargazers
 [issues-shield]: https://img.shields.io/github/issues/Carmenprz/drago-psicologia.svg?style=for-the-badge
