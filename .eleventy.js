@@ -1,15 +1,24 @@
 module.exports = config => {
-    config.addPassthroughCopy('./src/images/');
+  // Transforms
+  const htmlMinTransform = require('./src/transforms/html-min-transform.js');
 
-    config.setUseGitIgnore(false);
+  // Create a helpful production flag
+  const isProduction = process.env.NODE_ENV === 'production';
 
-    return {
-        markdownTemplateEngine: 'njk',
-        dataTemplateEngine: 'njk',
-        htmlTemplateEngine: 'njk',
-      dir: {
-        input: 'src',
-        output: 'dist'
-      }
-    };
+  // Only minify HTML if we are in production because it slows builds _right_ down
+  if (isProduction) {
+    config.addTransform('htmlmin', htmlMinTransform);
+  }
+
+  config.setUseGitIgnore(false);
+
+  return {
+    markdownTemplateEngine: 'njk',
+    dataTemplateEngine: 'njk',
+    htmlTemplateEngine: 'njk',
+    dir: {
+      input: 'src',
+      output: 'dist'
+    }
   };
+};
