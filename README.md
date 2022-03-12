@@ -139,9 +139,8 @@ Project Link: [https://github.com/Carmenprz/drago-psicologia](https://github.com
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* [Jennifer Drago](https://github.com/Jennifer-Drago)
+* [Paul Melero](https://github.com/gangsthub)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
