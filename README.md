@@ -8,7 +8,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Carmenprz/drago-psicologia">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="src/images/meta/favicon.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Drago psicología Website</h3>
