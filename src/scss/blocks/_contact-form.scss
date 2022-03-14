@@ -13,9 +13,19 @@ form {
     }
     .form__action {
         display: flex;
+        flex-direction: column;
         align-items: end;
+        a {
+            color: get-color('dark-shade')
+        }
     }
     @include media-query('lg') {
         width: 40rem;
+
+        .form__action {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+        }
     }
 }

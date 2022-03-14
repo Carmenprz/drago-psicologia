@@ -1,21 +1,31 @@
 <form name="contact" method="POST" class="[ flow ] [ input ]">
-    <p>
-        <label>Nombre:</label>
-        <input type="text" name="name" />
-    </p>
-    <p>
-        <label>Email:</label>
-        <input type="email" name="email" />
-    </p>
-    <p>
-        <label>Teléfono:</label>
-        <input type="phone-number" name="phone-number" />
-    </p>
-    <p>
-        <label>Mensaje:</label>
-        <textarea name="message"></textarea>
-    </p>
-    <div class="form__action">
-        <a class="button" type="submit" data-variant="form">Enviar</a>
-    </div>
+  <p>
+    <label>Nombre:</label>
+    <input type="text" name="name" />
+  </p>
+  <p>
+    <label>Email:</label>
+    <input type="email" name="email" />
+  </p>
+  <p>
+    <label>Teléfono:</label>
+    <input type="phone-number" name="phone-number" />
+  </p>
+  <p>
+    <label>Mensaje:</label>
+    <textarea name="message"></textarea>
+  </p>
+  <div class="[ form__action ] [ flow ]">
+    <span>
+      <input type="checkbox" name="policy" value="policy" />
+      <label class="[ text-400 ]" for="policy"
+        ><a href="/policy"
+          >He leido y acepto la política de privacidad</a
+        ></label
+      >
+    </span>
+    <a class="[ button ]" type="submit" data-variant="form"
+      >Enviar tu mensaje</a
+    >
+  </div>
 </form>
