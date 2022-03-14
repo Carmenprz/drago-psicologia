@@ -39,7 +39,8 @@
 
   &__action {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
   }
 
   @include media-query('md') {
@@ -74,6 +75,9 @@
         bottom: 20%;
         right: 40%;
       }
+    }
+    &__action {
+      align-items: flex-start;
     }
   }
 }

@@ -5,6 +5,8 @@
 
     &__action {
         display: flex;
+        flex-direction: column;
+        align-items: end;
     }
 
     @include media-query('lg') {
@@ -16,6 +18,9 @@
             &__intro {
                 padding-right: get-size('800');
             }
+        }
+        &__action {
+            align-items: flex-start;
         }
     }
 }
