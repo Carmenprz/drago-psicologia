@@ -9,6 +9,9 @@
     font-size: get-size('400');
     text-align: center;
     z-index: 1;
+    a {
+      color: get-color('light-glare');
+    }
   }
 
   @include apply-utility('font', 'sans');
