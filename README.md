@@ -17,7 +17,7 @@
     <a href="https://github.com/Carmenprz/drago-psicologia"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Carmenprz/drago-psicologia">View Demo</a>
+    <a href="https://dragopsicologia.netlify.app/">View Demo</a>
     ·
     <a href="https://github.com/Carmenprz/drago-psicologia/issues">Report Bug</a>
     ·
@@ -55,10 +55,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<!-- [![Drago Psicologia Screen Shot][product-screenshot]]()
+[![Drago Psicologia Screen Shot][product-screenshot]](https://dragopsicologia.netlify.app/)
 
 
-<p align="right">(<a href="#top">back to top</a>)</p> -->
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
@@ -155,4 +155,4 @@ Project Link: [https://github.com/Carmenprz/drago-psicologia](https://github.com
 [issues-url]: https://github.com/Carmenprz/drago-psicologia/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/carmenprz
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: src/images/readme/screenshot.png
