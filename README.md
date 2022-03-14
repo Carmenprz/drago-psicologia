@@ -91,7 +91,7 @@ To get a local copy up and running follow these simple example steps.
    ```
 3. Serve at localhost:3000
    ```sh
-   npm install
+   npm start
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
