@@ -3,17 +3,19 @@ title: 'Drago psicología'
 layout: 'layouts/home.html'
 nav:
   buttonText: '¿Hablamos?'
-  buttonUrl: '/contact'
+  buttonUrl: '/contacto'
 intro:
   header: 'Tu consulta de psicología en Cubelles y Vilanova i la Geltrú.'
   buttonText: 'Contáctame'
-  buttonUrl: '/contact'
+  buttonUrl: '/contacto'
   image: '/images/bg/icon.svg'
   imageAlt: 'Buttered toasted white bread'
 
 featuredServices:
   title: 'Servicios'
-  summary: 'Servicios destacados de Drago psicología. Accede a ver más para descubrirlos todos.'
+  summary: 'Servicios destacados de Drago psicología.'
+  buttonText: 'Ver más'
+  buttonUrl: '/servicios'
 
 aboutMe:
   title: 'Sobre mí'
@@ -21,14 +23,14 @@ aboutMe:
   image: '/images/people/1.jpg'
   imageAlt: 'Jennifer Drago'
   buttonText: '¿Nos conocemos?'
-  buttonUrl: '/contact'
+  buttonUrl: '/contacto'
 
 contact:
   title: 'Contacto'
-  summary: 'Si necesitas una psicologa, no dudes en contactar conmigo. 
+  summary: 'Si necesitas una psicologa, no dudes en contactar conmigo.
   Escríbeme para cualquier duda que tengas y reservar tu cita.'
   buttonText: 'Contáctame'
-  buttonUrl: '/contact'
+  buttonUrl: '/contacto'
 
 metaDesc: 'Psicóloga en Cubelles. Terapia individualizada y eficaz.'
 ---
