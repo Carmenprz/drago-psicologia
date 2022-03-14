@@ -1,24 +1,24 @@
 {
   "items": [
     {
-      "title": "Violencia de género",
-      "image": "../images/services/1.jpg"
-    },
-    {
-      "title": "Depresión",
+      "title": "Terapia individual",
       "image": "../images/services/2.jpg"
     },
     {
-      "title": "Terapia de pareja",
+      "title": "Psiconutrición",
       "image": "../images/services/3.jpg"
     },
     {
-      "title": "Ansiedad",
+      "title": "Terapia de pareja y no monogamias",
       "image": "../images/services/4.jpg"
     },
     {
-      "title": "Burn out",
+      "title": "Sexología",
       "image": "../images/services/5.jpg"
+    },
+    {
+      "title": "Violencia de género",
+      "image": "../images/services/1.jpg"
     }
   ]
 }
