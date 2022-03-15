@@ -1,4 +1,6 @@
-<a class="[ skip-link ] [ button ]" href="#featured-services">Saltar al contenido principal</a>
+<a class="[ skip-link ] [ button ]" href="#featured-services"
+  >Saltar al contenido principal</a
+>
 <header class="site-head" role="banner">
   <div class="wrapper">
     <div class="site-head__inner">
@@ -9,12 +11,10 @@
         <ul role="list">
           {% for item in navigation.items %}
           <li>
-            <a href="{{ item.url }}">{{ item.text }}</a>
+            <a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}
+              >{{ item.text }}</a>
           </li>
           {% endfor %}
-          <!-- <li>
-            <a href="{{ nav.buttonUrl }}" data-variant="nav" class="button">{{ nav.buttonText }}</a>
-          </li> -->
         </ul>
       </nav>
     </div>
