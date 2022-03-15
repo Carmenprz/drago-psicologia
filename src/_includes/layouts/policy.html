@@ -1,0 +1,13 @@
+{% extends "layouts/base.html" %}
+{% set pageHeaderTitle = title %}
+
+{% block content %}
+<article class="[ panel ] [ flow ] [ bg-light-shade ]">
+    <div class="[ page-content ] [ flow wrapper ] [ flow-space-700 gap-top-700 ]">
+        <h2 class="[ headline ] [ color-dark lg:measure-micro ]" data-highlight="dark">
+            {{ title }}
+        </h2>
+        {{ content | safe }}
+      </div>
+</article>
+{% endblock %}
