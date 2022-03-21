@@ -2,23 +2,23 @@
   "items": [
     {
       "title": "Terapia individual",
-      "image": "../images/services/2.jpg"
+      "description": "Bending Spoons is closely following the COVID-19 situation and implementing processes that support candidate and team member safety."
     },
     {
       "title": "Psiconutrición",
-      "image": "../images/services/3.jpg"
+      "description": "Bending Spoons is closely following the COVID-19 situation and implementing processes that support candidate and team member safety."
     },
     {
       "title": "Terapia de pareja y no monogamias",
-      "image": "../images/services/4.jpg"
+      "description": "Bending Spoons is closely following the COVID-19 situation and implementing processes that support candidate and team member safety."
     },
     {
       "title": "Sexología",
-      "image": "../images/services/5.jpg"
+      "description": "Bending Spoons is closely following the COVID-19 situation and implementing processes that support candidate and team member safety."
     },
     {
       "title": "Violencia de género",
-      "image": "../images/services/1.jpg"
+      "description": "Bending Spoons is closely following the COVID-19 situation and implementing processes that support candidate and team member safety."
     }
   ]
 }

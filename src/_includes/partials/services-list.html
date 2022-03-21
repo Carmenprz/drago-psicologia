@@ -1,0 +1,8 @@
+<div class="[ wrapper ] [ flow ]">
+  {% for item in services.items %}
+  <div class="[ services-list__item ]">
+    <h3 class="[ color-dark-shade ] [ services-list__title ]">{{ item.title }}</h3>
+    <p class="[ color-dark-shade ]">{{ item.description }}</p>
+  </div>
+  {% endfor %}
+</div>
