@@ -19,7 +19,10 @@ featuredServices:
 
 aboutMe:
   title: 'Sobre mí'
-  summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea ommodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.'
+  summary: 'Mi nombre es Jennifer Drago. Licenciada por la Universidad de Barcelona y acreditada como psicóloga sanitaria (Col. 21.310, Cataluña). 
+  Soy psicóloga desde hace más de 10 años. Sin embargo, mi relación con la psicología empezó mucho antes. Desde que tenía apenas 11 años supe que quería ser psicóloga y a medida que crecía y aprendía más sobre el tema, más claro veía que ese era el camino que quería para mí. 
+  Tras la licenciatura he seguido en formación continua: Máster en Terapia Cognitivo Conductual, Máster en Relaciones de Género, Especialista en Terapia Breve y Estratégica, entre otras formaciones. 
+  Me apasiona entender la complejidad del ser humano y acompañar a las personas en el camino a su bienestar.   Estoy aquí para ayudarte. Contacta conmigo y emprendamos junt@s ese camino.'
   image: '/images/people/1.jpg'
   imageAlt: 'Jennifer Drago'
   buttonText: '¿Nos conocemos?'
