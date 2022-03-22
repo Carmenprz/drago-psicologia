@@ -1,20 +1,9 @@
 {% extends "layouts/base.html" %} {% set pageHeaderTitle = title %} {% block
 content %}
-<article id="services-me" class="[ services ] [ panel ] [ bg-light-shade ]">
-  <div class="wrapper">
-    <div class="[ services__inner ] [ flow ]">
-      <div class="[ flow ]">
-        <h2 class="[ services__heading ] [ headline ]">{{ title }}</h2>
-        <p class="[ services__summary ] [ measure-short ]">
-          {{ intro.summary }}
-        </p>
-      </div>
-      <div class="[ services__picture ]">
-        <div class="circle"></div>
-        <img src="{{ intro.image }}" alt="{{ intro.imageAlt}}" />
-      </div>
-    </div>
-  </div>
+<article
+  id="services-me"
+  class="[ services ] [ panel ] [ bg-light-shade ] [ flow ]"
+>
     {% include "partials/services-list.html"%}
 </article>
 {% endblock %}

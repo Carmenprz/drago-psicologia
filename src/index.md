@@ -11,11 +11,13 @@ intro:
   image: '/images/bg/icon.svg'
   imageAlt: 'Buttered toasted white bread'
 
-featuredServices:
+services:
   title: 'Servicios'
-  summary: 'Servicios destacados de Drago psicología.'
+  summary: 'Estos son los servicios que se ofrecen en Drago psicología.'
   buttonText: 'Ver más'
-  buttonUrl: '/servicios'
+  buttonUrl: '/servicios/'
+  image: '/images/bg/plant.svg'
+  imageAlt: 'Plant illustration'
 
 aboutMe:
   title: 'Sobre mí'

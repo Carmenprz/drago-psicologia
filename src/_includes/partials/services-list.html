@@ -1,8 +1,23 @@
+<div class="wrapper">
+  <div class="[ services__inner ] [ flow ]">
+    <div class="[ flow ] [ services__intro ]">
+      <h2 class="[ services__heading ] [ headline ]">{{ services.title }}</h2>
+      <p class="[ services__summary ] [ measure-short ]">
+        {{ services.summary }}
+      </p>
+    </div>
+    <div class="[ services__picture ]">
+      <img src="{{ services.image }}" alt="{{ services.imageAlt}}" />
+    </div>
+  </div>
+</div>
 <div class="[ wrapper ] [ flow ]">
   {% for item in services.items %}
   <div class="[ services-list__item ]">
-    <h3 class="[ color-dark-shade ] [ services-list__title ]">{{ item.title }}</h3>
-    <p class="[ color-dark-shade ]">{{ item.description }}</p>
+    <h3 class="[ color-dark ] [ services-list__title ]">{{ item.title }}</h3>
+    <p class="[ color-dark-shade ] [ measure-compact ]">
+      {{ item.description }}
+    </p>
   </div>
   {% endfor %}
 </div>
