@@ -1,0 +1,16 @@
+<article id="work-me" class="[ work ] [ panel ] [ bg-dark-shade color-light ]">
+    <div class="wrapper">
+        <div class="[ work__inner ] [ flow ]">
+            <div class="[ work__picture ]">
+                <img src="{{ work.image }}" alt="{{ work.imageAlt}}">
+            </div>
+            <div class="[ flow ]">
+                <h2 class="[ work__heading ] [ headline ]">{{ work.title }}</h2>
+                <p class="[ work__summary ] [ measure-short ]">{{ work.summary }}</p>
+                <div class="[ work__action ]">
+                    <a class="button" data-variant="ghost" href="{{ work.buttonUrl }}">{{ work.buttonText }}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
