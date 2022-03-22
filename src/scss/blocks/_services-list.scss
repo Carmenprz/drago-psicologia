@@ -40,6 +40,7 @@
     font-size: get-size('600');
     padding-bottom: get-size('600');
     max-width: 40rem;
+    line-height: get-size('700');
     @include apply-utility('font', 'base');
   }
 
@@ -56,6 +57,7 @@
     }
     &__title {
       font-size: get-size('700');
+      line-height: get-size('800');
     }
   }
 
@@ -90,7 +92,6 @@
     }
     &__title {
       padding-right: get-size('700');
-      font-size: get-size('700');
       width: 60rem;
     }
   }
