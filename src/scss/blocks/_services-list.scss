@@ -3,13 +3,14 @@
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
+    padding-bottom: get-size('700')
   }
   &__intro {
     padding: 0 get-size('700');
   }
   &__picture {
-    width: 13rem;
-    height: 13rem;
+    width: 18rem;
+    height: auto;
     position: relative;
     padding-bottom: get-size('700');
     z-index: 2;
@@ -45,7 +46,7 @@
   @include media-query('md') {
     &__picture {
       width: 18rem;
-      height: 18rem;
+      height: auto;
       .circle {
         width: 25rem;
         height: 25rem;
@@ -67,7 +68,7 @@
     &__picture {
       flex-shrink: 0;
       width: 20rem;
-      height: 20rem;
+      height: auto;
       .circle {
         width: 30rem;
         height: 30rem;
