@@ -1,0 +1,14 @@
+.subheading {
+  font-size: get-size('600');
+  line-height: get-size('700');
+  @include apply-utility('font', 'base');
+
+  @include media-query('md') {
+    font-size: get-size('700');
+    line-height: get-size('800');
+  }
+  @include media-query('lg') {
+    font-size: get-size('700');
+    line-height: get-size('800');
+  }
+}

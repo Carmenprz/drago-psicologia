@@ -1,0 +1,31 @@
+<article class="[ prices ] [ panel ] [ bg-light-shade ]">
+  <div class="wrapper">
+    <div class="[ prices__inner ] [ flow ]">
+      <div class="[ flow ]">
+        <h2 class="[ headline ]">{{ prices.title }}</h2>
+        <div class="[ prices__types ] [ flow ]">
+          {% for type in pricesInfo.types %}
+          <div class="[ radius ] [ prices__type ] [ bg-secondary ]">
+            <h3 class="[ color-dark ] [ prices__title ] [ subheading ]">
+              {{ type.title }}
+            </h3>
+            <p class="[ color-dark-shade ] [ prices__price ]">
+              {{ type.price }}
+            </p>
+          </div>
+          {% endfor %}
+        </div>
+        <div class="[ flow ]">
+          <h3 class="[ subheading ] [ measure-compact ]">
+            {{ prices.subtitle }}
+          </h3>
+          <ul>
+            {% for include in pricesInfo.includes %}
+            <li>{{ include.item }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>

@@ -1,0 +1,33 @@
+.prices {
+  &__types {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  &__type {
+    width: 18rem;
+    height: 18rem;
+    padding: get-size('700') get-size('600');
+    margin: get-size('300');
+  }
+  &__title {
+    padding-bottom: get-size('500');
+  }
+  &__price {
+    font-size: get-size('600');
+    @include apply-utility('font', 'sans');
+    @include apply-utility('weight', 'light');
+  }
+  @include media-query('md') {
+    &__type {
+      width: 23rem;
+      height: 22rem;
+      padding: get-size('800') get-size('600');
+      margin: get-size('300');
+    }
+    &__price {
+      font-size: get-size('700');
+    }
+  }
+}

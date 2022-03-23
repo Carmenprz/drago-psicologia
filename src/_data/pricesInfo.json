@@ -1,0 +1,35 @@
+{
+  "types": [
+    {
+      "title": "Terapia individual",
+      "price": "60€/sesión"
+    },
+    {
+      "title": "Terapia pareja/familiar",
+      "price": "80€/sesión"
+    }
+  ],
+  "includes": [
+    {
+      "item": "La hora de la visita"
+    },
+    {
+      "item": "Preparación de tu caso entre visitas"
+    },
+    {
+      "item": "Comunicación via email siempre que lo necesites entre sesión y sesión"
+    },
+    {
+      "item": "Tareas específicas para tu caso en concreto"
+    },
+    {
+      "item": "Formación continuada"
+    },
+    {
+      "item": "Seguro de responsabilidad civil"
+    },
+    {
+      "item": "Alta de colegiada en el colegio de psicólogos"
+    }
+  ]
+}
