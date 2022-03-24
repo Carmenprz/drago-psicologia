@@ -1,20 +1,18 @@
 .intro {
-  position: relative; 
+  position: relative;
 
   &__header {
     padding: get-size('800') get-size('500');
-    z-index: 1;
   }
-  
+
   &__heading {
     max-width: 600px;
   }
 
   &__media {
     position: absolute;
-    right: -50%;
-    left: 10%;
-    top: 40%;
+    bottom: 0;
+    right: -20rem;
     z-index: -1;
 
     img {
@@ -24,28 +22,9 @@
     }
   }
 
-  // Switch to an inline layout with some vert space
-  // above the header and content
   @include media-query('md') {
-    
     &__header {
       padding: get-size('800') get-size('500');
-    }
-
-    &__media {
-      top: 30%;
-      left: 20%;
-      right: -40%;
-    }
-  }
-
-  // Flip the ratio for larger breakpoints
-  @include media-query('lg') {
-    // Because it's so large, it make sense to limit the image height too
-    &__media {
-      top: 20%;
-      right: -40%;
-      left: 40%;
     }
   }
 }

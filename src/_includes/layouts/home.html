@@ -1,29 +1,33 @@
-{% extends "layouts/base.html" %}
-{% set pageCriticalStyles = ['css/home.css'] %}
+{% extends "layouts/base.html" %} {% set pageCriticalStyles = ['css/home.css']%}
+
 {% block content %}
 
-<div class="[ panel ]">
-  <article class="intro">
+<div class="[ intro ][ panel ]">
+  <article>
+    <div class="[ intro__media ]">
+      <img
+        class="[ intro__image ]"
+        src="{{ intro.image }}"
+        alt="{{ intro.imageAlt }}"
+      />
+    </div>
     <div class="[ wrapper ]">
       <div class="[ intro__header ] [ flow ]">
-        <h1 class="[ intro__heading ] [ text-800 md:text-800 lg:text-900 weight-bold]">
+        <h1
+          class="[ intro__heading ] [ text-800 md:text-800 lg:text-900 weight-bold]"
+        >
           {{ intro.header }}
         </h1>
-        <a href="{{ intro.buttonUrl }}" class="button">{{ intro.buttonText }}</a>
-      </div>
-      <div class="[ intro__media ]">
-        <img
-          class="[ intro__image ]"
-          src="{{ intro.image }}"
-          alt="{{ intro.imageAlt }}"
-        />
+        <a href="{{ intro.buttonUrl }}" class="button"
+          >{{ intro.buttonText }}</a
+        >
       </div>
     </div>
   </article>
 </div>
 
-{% include "partials/services-home.html"%}
-{% include "partials/about-me.html"%}
-{% include "partials/contact.html"%}
+  {% include "partials/services-home.html"%}
+  {% include "partials/about-me.html"%}
+  {% include "partials/contact.html"%}
 
 {% endblock %}

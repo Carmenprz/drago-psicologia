@@ -9,7 +9,7 @@ intro:
   buttonText: 'Contáctame'
   buttonUrl: '/contacto'
   image: '/images/bg/icon.svg'
-  imageAlt: 'Buttered toasted white bread'
+  imageAlt: 'brand logo'
 
 services:
   title: 'Servicios'
