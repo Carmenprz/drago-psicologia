@@ -1,0 +1,24 @@
+.contact-home {
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__picture {
+        padding-top: get-size('600');
+        img {
+            height: 18rem;
+            object-fit: fill;
+          }
+      }
+    @include media-query('md') {
+        &__inner {
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        &__picture {
+            padding-left: get-size('600');
+        }
+    }
+}

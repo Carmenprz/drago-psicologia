@@ -1,0 +1,20 @@
+{% extends "layouts/base.html" %} {% set pageHeaderTitle = title %} {% block
+content %}
+<article class="[ contact-home ] [ wrapper ] [ bg-light-shade ] [ flow ]">
+  <div class="[ contact-home__inner ] [ panel ]">
+    <div class="[ flow ]">
+      <h2 class="[ headline ]">{{ contact.title }}</h2>
+      <h3 class="[ color-dark ]">{{ contact.subtitle }}</h3>
+      <ul class="[ measure-short ]">
+        <li>{{contact.address}}</li>
+        <li>{{contact.phoneNumber}}</li>
+        <li>{{contact.email}}</li>
+      </ul>
+    </div>
+    <div class="[ contact-home__picture ]">
+      <img src="{{ contact.image }}" alt="{{ contact.imageAlt}}" />
+    </div>
+  </div>
+</article>
+
+{% endblock %}

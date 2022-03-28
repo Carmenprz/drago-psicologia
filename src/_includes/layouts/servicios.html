@@ -1,13 +1,8 @@
 {% extends "layouts/base.html" %} {% set pageHeaderTitle = title %} {% block
 content %}
-<article
-  id="services-me"
-  class="[ services ] [ panel ] [ bg-light-shade ] [ flow ]"
->
+<article class="[ services ] [ panel ] [ bg-light-shade ] [ flow ]">
   {% include "partials/services-list.html"%}
 </article>
 
-{% include "partials/work.html"%}
-{% include "partials/tarifas.html"%}
-
-{% endblock %}
+{% include "partials/work.html"%} {% include "partials/tarifas.html"%} {%
+endblock %}
