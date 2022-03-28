@@ -27,12 +27,12 @@ content %}
     </div>
   </div>
   {% include "partials/map.html"%}
-  <div class="[ wrapper ] [ contact-home__form ] [ flow ]">
-      <div class="[ gap-top-700 ] [ flow ]">
-          <h3 class="[ color-dark ] [ subheading ]">{{ form.title }}</h3>
-          <p class="[ measure-compact ]">{{ form.summary }}</p>
+  <div class="[ wrapper ] [ ] [ flow ]">
+      <h3 class="[ color-dark ] [ subheading ]">{{ form.title }}</h3>
+      <div class="[  contact-home__form ] [ flow ]">
+          <p class="[ measure-compact ] [ gap-top-500 ]">{{ form.summary }}</p>
+          {% include "partials/contact-form.html"%}
       </div>
-    {% include "partials/contact-form.html"%}
   </div>
 </article>
 
