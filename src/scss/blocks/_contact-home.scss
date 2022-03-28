@@ -16,6 +16,9 @@
                 }
             }
         }
+        &__email {
+            word-break: break-all;
+        }
     }
     &__picture {
         padding-top: get-size('600');
@@ -33,6 +36,10 @@
         &__picture {
             padding-left: get-size('600');
             padding-top: get-size('800');
+        }
+        &__form {
+            display: flex;
+            column-gap: get-size('600');
         }
     }
 }
