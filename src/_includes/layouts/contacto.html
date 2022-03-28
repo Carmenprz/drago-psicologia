@@ -1,20 +1,32 @@
 {% extends "layouts/base.html" %} {% set pageHeaderTitle = title %} {% block
 content %}
-<article class="[ contact-home ] [ wrapper ] [ bg-light-shade ] [ flow ]">
-  <div class="[ contact-home__inner ] [ panel ]">
-    <div class="[ flow ]">
-      <h2 class="[ headline ]">{{ contact.title }}</h2>
-      <h3 class="[ color-dark ]">{{ contact.subtitle }}</h3>
-      <ul class="[ measure-short ]">
-        <li>{{contact.address}}</li>
-        <li>{{contact.phoneNumber}}</li>
-        <li>{{contact.email}}</li>
-      </ul>
+<article class="[ contact-home ] [ panel ] [ bg-light-shade ] [ flow ]">
+  <div class="[ contact-home__inner ] [ wrapper ]">
+      <div class="[ flow ]">
+        <h2 class="[ headline ]">{{ contact.title }}</h2>
+      <div>
+        <h3 class="[ color-dark ] [ subheading ]">{{ contact.subtitle }}</h3>
+        <ul class="[ measure-short ]">
+          <li>
+            <span class="material-icons">home</span>
+            {{contact.address}}
+          </li>
+          <li>
+            <span class="material-icons">phone</span>
+            {{contact.phoneNumber}}
+          </li>
+          <li>
+            <span class="material-icons">email</span>
+            {{contact.email}}
+          </li>
+        </ul>
+      </div>
     </div>
     <div class="[ contact-home__picture ]">
       <img src="{{ contact.image }}" alt="{{ contact.imageAlt}}" />
     </div>
   </div>
+  {% include "partials/map.html"%}
 </article>
 
 {% endblock %}

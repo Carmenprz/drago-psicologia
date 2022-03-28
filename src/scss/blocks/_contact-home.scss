@@ -3,6 +3,19 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        ul {
+            font-size: get-size('500');
+            padding-top: get-size('300');
+            li {
+                display: grid;
+                grid-template-columns: 0.1fr 1.8fr;
+                margin-top: get-size('400');
+                column-gap: 0.5rem;
+                span {
+                    margin-top: 0.2rem;
+                }
+            }
+        }
     }
     &__picture {
         padding-top: get-size('600');
@@ -11,7 +24,7 @@
             object-fit: fill;
           }
       }
-    @include media-query('md') {
+    @include media-query('lg') {
         &__inner {
             flex-direction: row;
             justify-content: space-between;
@@ -19,6 +32,7 @@
         }
         &__picture {
             padding-left: get-size('600');
+            padding-top: get-size('800');
         }
     }
 }
