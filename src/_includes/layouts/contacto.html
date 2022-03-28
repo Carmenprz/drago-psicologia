@@ -2,8 +2,8 @@
 content %}
 <article class="[ contact-home ] [ panel ] [ bg-light-shade ] [ flow ]">
   <div class="[ contact-home__inner ] [ wrapper ]">
-      <div class="[ flow ]">
-        <h2 class="[ headline ]">{{ contact.title }}</h2>
+    <div class="[ flow ]">
+      <h2 class="[ headline ]">{{ contact.title }}</h2>
       <div>
         <h3 class="[ color-dark ] [ subheading ]">{{ contact.subtitle }}</h3>
         <ul class="[ measure-short ]">
@@ -15,7 +15,7 @@ content %}
             <span class="material-icons">phone</span>
             {{contact.phoneNumber}}
           </li>
-          <li>
+          <li class="contact-home__inner__email">
             <span class="material-icons">email</span>
             {{contact.email}}
           </li>
@@ -27,6 +27,13 @@ content %}
     </div>
   </div>
   {% include "partials/map.html"%}
+  <div class="[ wrapper ] [ contact-home__form ] [ flow ]">
+      <div class="[ gap-top-700 ] [ flow ]">
+          <h3 class="[ color-dark ] [ subheading ]">{{ form.title }}</h3>
+          <p class="[ measure-compact ]">{{ form.summary }}</p>
+      </div>
+    {% include "partials/contact-form.html"%}
+  </div>
 </article>
 
 {% endblock %}

@@ -8,4 +8,7 @@ contact:
     email: 'contacto@dragopsicologia.com'
     image: '/images/bg/plant_3.svg'
     imageAlt: 'plant illustration'
+form:
+    title: 'Envíame un mensaje'
+    summary: 'Si necesitas una psicologa, no dudes en contactar conmigo. Escríbeme para cualquier duda que tengas y reservar tu cita.'
 ---
