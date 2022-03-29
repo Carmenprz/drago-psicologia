@@ -104,6 +104,7 @@ To get a local copy up and running follow these simple example steps.
 - [x] Improve accesibility adding a 'Skip to content' button and keyboard navigation.
 - [x] Make the website fully responsive.
 - [ ] Add a blog section.
+- [ ] Add animations.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
