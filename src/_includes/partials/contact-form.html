@@ -1,4 +1,4 @@
-<form name="contact" method="POST" class="[ flow ] [ input ]">
+<form name="contact" method="POST" data-netlify="true" class="[ flow ] [ input ]">
   <p>
     <label>Nombre:</label>
     <input type="text" name="name" />
@@ -18,14 +18,14 @@
   <div class="[ form__action ] [ flow ]">
     <span>
       <input type="checkbox" name="policy" value="policy" />
-      <label class="[ text-400 ]" for="policy"
-        ><a href="/politica-de-privacidad/"
-          >He leído y acepto la política de privacidad</a
-        ></label
-      >
+      <label class="[ text-400 ]" for="policy">
+        <a href="/politica-de-privacidad/">
+          He leído y acepto la política de privacidad
+        </a>
+      </label>
     </span>
-    <a class="[ button ]" type="submit" data-variant="form"
-      >Enviar tu mensaje</a
-    >
+    <button class="[ button ]" type="submit" data-variant="form">
+      Enviar tu mensaje
+    </button>
   </div>
 </form>

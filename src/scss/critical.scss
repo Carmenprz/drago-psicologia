@@ -32,6 +32,10 @@
     outline-offset: 0.2rem;
   }
 
+  button {
+    all: unset;
+  }
+
   main:focus {
     transform: none;
     outline: none;
