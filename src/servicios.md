@@ -1,5 +1,6 @@
 ---
 layout: 'layouts/servicios.html'
+title: 'Servicios'
 services:
   title: 'Servicios'
   summary: 'Estos son los servicios que se ofrecen en Drago psicología.'
