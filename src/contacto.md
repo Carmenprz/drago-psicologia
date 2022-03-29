@@ -1,7 +1,7 @@
 ---
 layout: 'layouts/contacto.html'
+title: 'Contacto'
 contact:
-    title: 'Contacto'
     subtitle: 'Información de contacto'
     address: 'Av. Barcelona, 122, Cubelles, Barcelona, 438881, España.'
     phoneNumber: '699-202-414'
