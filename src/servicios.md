@@ -2,13 +2,13 @@
 layout: 'layouts/servicios.html'
 services:
   title: 'Servicios'
-  summary: 'Servicios destacados de Drago psicología.'
+  summary: 'Estos son los servicios que se ofrecen en Drago psicología.'
   image: '/images/bg/plant.svg'
   imageAlt: 'Plant illustration'
 
 work:
   title: '¿Cómo trabajo?'
-  summary: 'Mi nombre es Jennifer Drago. Licenciada por la Universidad de Barcelona y acreditada como psicóloga sanitaria (Col. 21.310, Cataluña).S oy psicóloga desde hace más de 10 años. Sin embargo, mi relación con la psicología empezó mucho antes. Desde que tenía apenas 11 años supe que quería ser psicóloga y a medida que crecía y aprendía más sobre el tema, más claro veía que ese era el camino que quería para mí. '
+  summary: 'Mi método de intervención es altamente efectivo porque me baso en la especialización y he conseguido integrar en la terapia las herramientas más eficaces e innovadoras que existen en la actualidad para la resolución de los problemas de índole psicológica.'
   image: '/images/bg/plant_2.svg'
   imageAlt: 'Plant illustration'
   buttonText: 'Contacta conmigo'

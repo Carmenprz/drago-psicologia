@@ -77,10 +77,13 @@
       display: flex;
       padding: get-size('500') get-size('800');
       flex-direction: row;
+      p {
+        font-size: get-size('400');
+      }
     }
     &__title {
       padding-right: get-size('700');
-      width: 60rem;
+      width: 30rem;
     }
   }
 }
