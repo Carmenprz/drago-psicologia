@@ -1,0 +1,21 @@
+<article class="[ panel ] [ bg-light-shade ]">
+    <div class="[ contact-section ] [ wrapper ] [ flow ]">
+        <div class="[ contact-section__content ] [ flow ]">
+            <div class="[ contact-section__content__intro ] [ flow ]">
+                <h2 class="[ contact-section__heading ] [ headline ] [ color-dark lg:measure-micro ]"
+                    data-highlight="dark">
+                    {{ contact.title }}
+                </h2>
+                <p class="[ contact-section__summary ] [ measure-compact ]">
+                    {{ contact.summary }}
+                </p>
+                <div class="[ contact-section__action ]">
+                    <a class="button" href="{{ contact.buttonUrl }}">{{ contact.buttonText }}</a>
+                </div>
+            </div>
+            <div>
+                {% include "partials/contact-form.html" %}
+            </div>
+        </div>
+    </div>
+</article>

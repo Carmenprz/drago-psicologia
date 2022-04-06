@@ -1,7 +1,7 @@
 {% extends "layouts/base.html" %} {% set pageHeaderTitle = title %} {% block
 content %}
-<article class="[ contact-home ] [ panel ] [ bg-light-shade ] [ flow ]">
-  <div class="[ contact-home__inner ] [ wrapper ]">
+<article class="[ contact ] [ panel ] [ bg-light-shade ] [ flow ]">
+  <div class="[ contact__inner ] [ wrapper ]">
     <div class="[ flow ]">
       <h2 class="[ headline ]">{{ title }}</h2>
       <div>
@@ -15,21 +15,21 @@ content %}
             <span class="material-icons">phone</span>
             {{contact.phoneNumber}}
           </li>
-          <li class="contact-home__inner__email">
+          <li class="contact__inner__email">
             <span class="material-icons">email</span>
             {{contact.email}}
           </li>
         </ul>
       </div>
     </div>
-    <div class="[ contact-home__picture ]">
+    <div class="[ contact__picture ]">
       <img src="{{ contact.image }}" alt="{{ contact.imageAlt}}" />
     </div>
   </div>
   {% include "partials/map.html"%}
   <div class="[ wrapper ] [ ] [ flow ]">
       <h3 class="[ color-dark ] [ subheading ]">{{ form.title }}</h3>
-      <div class="[  contact-home__form ] [ flow ]">
+      <div class="[  contact__form ] [ flow ]">
           <p class="[ measure-compact ] [ gap-top-500 ]">{{ form.summary }}</p>
           {% include "partials/contact-form.html"%}
       </div>

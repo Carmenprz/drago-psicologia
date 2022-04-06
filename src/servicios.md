@@ -1,5 +1,5 @@
 ---
-layout: 'layouts/servicios.html'
+layout: 'layouts/services.html'
 title: 'Servicios'
 services:
   title: 'Servicios'

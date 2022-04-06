@@ -1,6 +1,6 @@
 ---
 title: 'Política de privacidad'
-layout: 'layouts/politica-de-privacidad.html'
+layout: 'layouts/privacy-policy.html'
 ---
 
 ## Finalidad del tratamiento

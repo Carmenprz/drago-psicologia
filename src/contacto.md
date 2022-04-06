@@ -1,5 +1,5 @@
 ---
-layout: 'layouts/contacto.html'
+layout: 'layouts/contact.html'
 title: 'Contacto'
 contact:
     subtitle: 'Información de contacto'
