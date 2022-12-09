@@ -130,7 +130,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- CONTACT -->
 ## Contact
 
-Carmen Pérez - carmenp.gomezz99@gmail.com
+Carmen Pérez - carmenp.gomez99@gmail.com
 
 Project Link: [https://github.com/Carmenprz/drago-psicologia](https://github.com/Carmenprz/drago-psicologia)
 
